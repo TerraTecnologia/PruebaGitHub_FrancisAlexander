@@ -57,10 +57,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulario2.Designer.cs">
+      <DependentUpon>Formulario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulario3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formulario3.Designer.cs">
+      <DependentUpon>formulario3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario2.resx">
+      <DependentUpon>Formulario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulario3.resx">
+      <DependentUpon>formulario3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
