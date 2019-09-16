@@ -36,6 +36,7 @@
 			this.pnlContenedor = new System.Windows.Forms.Panel();
 			this.button2 = new System.Windows.Forms.Button();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
+			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
 			this.pnlHeader.SuspendLayout();
 			this.pnlContenedor.SuspendLayout();
 			this.SuspendLayout();
@@ -98,6 +99,7 @@
 			// 
 			// pnlContenedor
 			// 
+			this.pnlContenedor.Controls.Add(this.dateTimePicker1);
 			this.pnlContenedor.Controls.Add(this.comboBox1);
 			this.pnlContenedor.Controls.Add(this.button2);
 			this.pnlContenedor.Controls.Add(this.button1);
@@ -126,6 +128,13 @@
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(121, 24);
 			this.comboBox1.TabIndex = 3;
+			// 
+			// dateTimePicker1
+			// 
+			this.dateTimePicker1.Location = new System.Drawing.Point(438, 205);
+			this.dateTimePicker1.Name = "dateTimePicker1";
+			this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+			this.dateTimePicker1.TabIndex = 4;
 			// 
 			// Form1
 			// 
@@ -157,6 +166,7 @@
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.ComboBox comboBox1;
+		private System.Windows.Forms.DateTimePicker dateTimePicker1;
 	}
 }
 
