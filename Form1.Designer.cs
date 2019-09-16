@@ -34,6 +34,7 @@
             this.pnlIzquierda = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +80,7 @@
             // 
             // pnlContenedor
             // 
+            this.pnlContenedor.Controls.Add(this.button2);
             this.pnlContenedor.Controls.Add(this.button1);
             this.pnlContenedor.Controls.Add(this.label1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -99,6 +101,15 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "X";
             this.label2.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(100, 174);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -127,6 +138,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel pnlIzquierda;
         private System.Windows.Forms.Panel pnlContenedor;
+        private System.Windows.Forms.Button button2;
     }
 }
 
